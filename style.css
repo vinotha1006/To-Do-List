@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#22c1c3,#fdbb2d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todos{
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.todos h1{
+   margin: 10px 10px;
+   font-size: 40px;
+   font-weight: 800;
+   position: relative;
+   left: 90px;
+}
+.todos input{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#todo-btn{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  right: 6px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  outline: none;
+}
+.todos ul{
+    margin: 10px 10px;
+    margin-top: 20px;
+}
+#todo-content{
+    list-style-type: none;
+    position: relative;
+}
+#todo-content li{
+    margin: 10px 0px;
+    cursor: pointer;
+   
+}
+#todo-content li button{
+    position: absolute;
+    right: 60px;
+    background-color: #000;
+    color: #fff;
+    border: 2px #000 solid;
+    outline: none;
+    cursor: pointer;    
+}
+#todo-content li button:hover{
+    transform: scale(90%);
+}
